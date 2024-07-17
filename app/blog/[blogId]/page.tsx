@@ -42,7 +42,7 @@ export default function BlogPost() {
             </div>
             <div className="flex flex-col items-center">
                 <Image layout='intrinsic' height={50} width={800} src={blog.blogImage} alt={blog.title} className="max-h-[200px] sm:max-h-[300px] object-cover object-bottom rounded-lg my-8" />
-                <article className="text-gray-400" dangerouslySetInnerHTML={{ __html: blog.content }} />
+                <article className="text-gray-400 mb-8" dangerouslySetInnerHTML={{ __html: blog.content }} />
             </div>
         </main>
     );
