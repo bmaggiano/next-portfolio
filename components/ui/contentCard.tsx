@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 
-export function ContentCard({ title, description, image, readTime, id, lighter }: { title: string, description: string, image: string, readTime: number, id: string, lighter?: boolean }) {
+export function ContentCard({ title, description, image, readTime, id, lighter, blogImage }: { title: string, description: string, image: string, readTime: number, id: string, lighter?: boolean, blogImage: string }) {
     const router = useRouter();
     return (
         <div onClick={() => router.push(`/blog/${id}`)} className="sm:max-w-xs w-full group/card">
