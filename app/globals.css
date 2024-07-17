@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: var(--font-pressStart2P), sans-serif;
+  font-family: var(--montserrat), sans-serif;
   background-color: black;
 }
 
