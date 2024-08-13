@@ -46,8 +46,10 @@ export const blogContent = [{
     blogImage: "/journeyBlog.jpg",
     readTime: 5,
     content: `
-            <p>Creating captions has never been easier...</p>
-            <p>With the help of my buddy Sid...</p>
+            <p>Upon graduating from the University of Arizona's full stack coding bootcamp, I was struggling to find opportunities for newly graduated students. In order to expand my skillset and gain experience, I decided to take on an unpaid internship with one of my best friends. This internship was a great opportunity to finally adapt some AI into my projects and learn a lot about the tech industry.</p>
+            <br/>
+            <p>This application uses OpenAI's GPT-3 to generate captions for Instagram posts. The captions are generated based on the user's input, and the GPT-3 model is trained on a dataset of captions from real Instagram posts. This application is a great example of how AI can be used to create a fun and engaging experience for users.</p>
+            <br/>
             <p>Using AI to generate amazing captions...</p>
         `,
 }]

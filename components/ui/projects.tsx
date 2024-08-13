@@ -3,11 +3,12 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
     {
-        name: "Fantasy Football Dashboard",
-        body: "Clean UI fantasy football dashboard with real data from Sleeper",
+        name: "Stuart AI",
+        body: "Your AI friendly fantasy football knowledge base",
         img: "/football.png",
         url: "https://sleeper-dashboard.vercel.app/"
     },
@@ -15,7 +16,7 @@ const projects = [
         name: "Instagram Caption Generator",
         body: "AI generated captions for Instagram posts with OpenAI",
         img: "/igcap.png",
-        url: ""
+        url: "https://instagram-caption-generator-pi.vercel.app/"
     },
     {
         name: "Healthcare Download",
@@ -39,7 +40,7 @@ const projects = [
         name: "Three Tabs Three Ways",
         body: "Fun, electric, UI showcasing different ways to use tabs",
         img: "/tabs.png",
-        url: ""
+        url: "https://three-tabs-three-ways.vercel.app/"
     },
 ];
 
@@ -50,52 +51,47 @@ const ReviewCard = ({
     img,
     name,
     body,
-    onClick,
     url,
 }: {
     img: string;
     name: string;
     body: string;
-    onClick: () => void;
     url: string;
 }) => {
     return (
-        <figure
-            onClick={onClick}
-            className={cn(
-                "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
-                "border-gray-50/[.1] bg-gray-50/[.10] hover:bg-gray-50/[.15]",
-            )}
-        >
-            <div className="flex flex-row items-center gap-2">
-                <Image className="rounded-full bg-white" width={32} height={32} alt={name} src={img} />
-                <div className="flex flex-col">
-                    <figcaption className="text-sm font-medium text-white">
-                        {name}
-                    </figcaption>
+        <Link href={url} target="_blank" prefetch={true} className="block">
+            <figure
+                className={cn(
+                    "relative w-64 h-36 cursor-pointer overflow-hidden rounded-xl border p-4",
+                    "border-gray-50/[.1] bg-gray-50/[.10] hover:bg-gray-50/[.15]",
+                )}
+            >
+                <div className="flex flex-row items-center gap-2">
+                    <Image className="rounded-full bg-white" width={32} height={32} alt={name} src={img} />
+                    <div className="flex flex-col">
+                        <figcaption className="text-sm font-medium text-white">
+                            {name}
+                        </figcaption>
+                    </div>
                 </div>
-            </div>
-            <blockquote className="text-gray-400 mt-2 text-sm">{body}</blockquote>
-        </figure>
+                <blockquote className="text-gray-400 mt-2 text-sm">{body}</blockquote>
+            </figure>
+        </Link>
     );
 };
 
 export function Projects() {
-    const handleClick = (url: string) => {
-        window.open(url, "_blank");
-    };
-
     return (
-        <div className="relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg">
+        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg">
             <h2 className="text-white text-3xl mb-12 font-medium sm:text-3xl md:text-6xl">Projects</h2>
-            <Marquee pauseOnHover className="[--duration:20s]">
+            <Marquee pauseOnHover className="[--duration:40s]">
                 {firstRow.map((review) => (
-                    <ReviewCard key={review.name} onClick={() => handleClick(review.url)} {...review} />
+                    <ReviewCard key={review.name} {...review} />
                 ))}
             </Marquee>
-            <Marquee reverse pauseOnHover className="[--duration:20s]">
+            <Marquee reverse pauseOnHover className="[--duration:40s]">
                 {secondRow.map((review) => (
-                    <ReviewCard key={review.name} onClick={() => handleClick(review.url)} {...review} />
+                    <ReviewCard key={review.name} {...review} />
                 ))}
             </Marquee>
             {/* Overlay gradients for aesthetic effect */}

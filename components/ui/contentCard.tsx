@@ -1,11 +1,13 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export function ContentCard({ title, description, image, readTime, id, lighter, blogImage }: { title: string, description: string, image: string, readTime: number, id: string, lighter?: boolean, blogImage: string }) {
     const router = useRouter();
     return (
-        <div onClick={() => router.push(`/blog/${id}`)} className="sm:max-w-xs w-full group/card">
+        <Link href={`/blog/${id}`} prefetch={true} className="sm:max-w-xs w-full group/card">
+
             <div
                 className={cn(
                     "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto flex flex-col justify-between p-4",
@@ -32,6 +34,6 @@ export function ContentCard({ title, description, image, readTime, id, lighter, 
                     </p>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 }
