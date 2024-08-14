@@ -11,7 +11,7 @@ export default function Header() {
                     </Avatar>
                 </Link>
                 <span className="ml-3 text-xl font-semibold">
-                    Brandon's Site
+                    Brandon&apos;s Site
                 </span>
             </div>
             <div className="flex items-center gap-x-6">
