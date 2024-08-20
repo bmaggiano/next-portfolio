@@ -1,13 +1,20 @@
 export const blogContent = [{
     id: "fantasy-football",
     published: "07/17/2024",
-    title: "Fantasy Football",
+    title: "Stuart AI",
     description: "Dive into how I recreated the Sleeper Fantasy App dashboard, pulling in real-time data from users' teams.",
     image: "/footballBlog.jpg",
     blogImage: "/footballBlogPost.jpg",
     readTime: 5,
     content: `
-            <p>This project is currently in progress. I'm currently working on the AI side of things. Stay tuned for updates!</p>
+        <blockquote style="font-size: 1.5rem; font-weight: bold;">Fantasy Football & AI</blockquote>
+            <p>Fantasy football is one of the most exciting and stressful things to participate in year after year. It's also one of the most rewarding experiences if you're a fan of the sport. However, keeping up with every single player's stats year after year can get a little overwhelming. That's where the idea to combine fantasy football and AI come into play. Imagine an app that that can give you expert analysis... like Stuart Scott, as well as AI breakdowns for in depth analysis.</p>
+            <br/>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">Stuart AI</blockquote>
+            <p>Stuart AI is a fantasy football app that has access to every single play for every single player that dates all the way back to 1999. It integrates with your Sleeper Fantasy account and pulls in real-time data from your team's stats. the long term goal with this is to have a one stop shop for all of your fantasy football needs. League dues, payouts, AI analytics, and so much more. In its current state you're able to see your league history including playoffs, able to type in two players and get AI insights for their historical stats, as well as get on the early waitlist for the full list of AI features.</p>
+            <br/>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">The Tech</blockquote>
+            <p>Building this has given me a chance to really learn the ins and outs of AI SDKs, ShadCN, NextJS, and so many more design systems. It's given me a chance to collaborate with industry experts and learn from them. I'm really excited to see where this goes and what other cool things I can build with AI.</p>
         `,
 },
 {
