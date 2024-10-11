@@ -1,11 +1,11 @@
 // app/layout.tsx
-import type { Metadata } from 'next';
-import { Montserrat } from 'next/font/google';
-import './globals.css';
-import Header from '@/components/ui/header';
-import { Separator } from '@/components/ui/separator';
+import type { Metadata } from "next";
+import { Nunito_Sans } from "next/font/google";
+import "./globals.css";
+import Header from "@/components/ui/header";
+import { Separator } from "@/components/ui/separator";
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Brandon Maggiano",
@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={nunitoSans.className}>
         <Header />
         <Separator />
         {children}
