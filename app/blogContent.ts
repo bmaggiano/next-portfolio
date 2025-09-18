@@ -1,4 +1,48 @@
-export const blogContent = [{
+export const blogContent = [
+    {
+    id: "startup-to-scaleup",
+    published: "07/17/2024",
+    title: "From Startup Days to Scale-Up Life",
+    description: "My experience going from start up land to big enterprise business.",
+    image: "",
+    blogImage: "",
+    readTime: 5,
+    content: `
+        <blockquote style="font-size: 1.5rem; font-weight: bold;">From Startup to Scale-Up</blockquote>
+            <p>Fantasy football is one of the most exciting and stressful things to participate in year after year. It's also one of the most rewarding experiences if you're a fan of the sport. However, keeping up with every single player's stats year after year can get a little overwhelming. That's where the idea to combine fantasy football and AI come into play. Imagine an app that that can give you expert analysis... like Stuart Scott, as well as AI breakdowns for in depth analysis.</p>
+            <br/>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">Stuart AI</blockquote>
+            <p>Stuart AI is a fantasy football app that has access to every single play for every single player that dates all the way back to 1999. It integrates with your Sleeper Fantasy account and pulls in real-time data from your team's stats. the long term goal with this is to have a one stop shop for all of your fantasy football needs. League dues, payouts, AI analytics, and so much more. In its current state you're able to see your league history including playoffs, able to type in two players and get AI insights for their historical stats, as well as get on the early waitlist for the full list of AI features.</p>
+            <br/>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">Player Compare</blockquote>
+            <p>One of the biggest struggles week in and week out is figuring out who to start and who to bench in your fantasy lineups. A LOT of analysis goes into this, and if you're not familiar with fantasy football, let me spell out how complex of a decision just deciding between two players can be. Let's take for example these two players, Brock Purdy and Jordan Love. They're quaterbacks for their respective teams. Some things you would want to consider when deciding who to start and who to bench would be the following:</p>
+            <br/>
+            <ul style="list-style-type: disc; padding-left: 20px;">
+                <li>What are their current season stats?</li>
+                <li>What are their previous season stats against this opponent?</li>
+                <li>Are they healthy?</li>
+                <li>Are their receivers healthy?</li>
+                <li>Is their running back healthy?</li>
+                <li>Are they dealing with any Oline injuries/issues?</li>
+                <li>Is there any news that would sway my decision one way or the other?</li>
+                <li>Is the weather going to be a factor?</li>
+                <li>Does one have more rushing upside than the other?</li>
+                <li>Are they playing against a really good defense?</li>
+                <li>Etc.</li>
+            </ul>
+            <br/>
+            <p>
+            Now all of this is just for one position, for one week. Can you imagine the effort required to do this for every position in your fantasy team for every week? It's a lot to keep up with. Stuart AI gathers all the data for you, combines it into a nice prompt to pass to an AI model and then returns the results. Not to mention it presents nice visual charts/graphs to help you make educated decisions if you don't want to fully rely on the AI. Also to help reduce calls and costs, we use Redis to cache data frequently and improve load times throughout the entire application. Users can currently make 10 calls per day to the API (gpt4.0-mini) and we're currently working on implementing tiered pricing structures to make it customizable for users.
+            </p>
+            <br/>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">Parlai</blockquote>
+            <p>All of this fantasy football frenzy got us thinking that we can not only create AI player comparisons, but since we're gathering all of the player info anyway, wouldn't it be cool to see if we could help users with their sports bets as well? Currently users have the ability to check live prop odds for NFL players and see if it's wise to bet the over or under on those prop bets. In the future we plan to also allow users to create parlays to see which bets make sense and which don't.</p>
+            <br/>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">The Tech</blockquote>
+            <p>Building this has given me a chance to really learn the ins and outs of AI SDKs, ShadCN, NextJS, Redis, Postgres and so many more design systems. It's given me a chance to collaborate with industry experts and learn from them. I'm really excited to see where this goes and what other cool things I can build with AI.</p>
+        `,
+},
+    {
     id: "fantasy-football",
     published: "07/17/2024",
     title: "Stuart AI",
@@ -95,4 +139,5 @@ export const blogContent = [{
             <blockquote style="font-size: 1.5rem; font-weight: bold;">Looking forward</blockquote>
             <p>As the technology for image recognition and AI in general continues to improve, there is ample opportunity to update these projects to make them ever better and more sophisticated. I'm excited to see what the future holds for these projects and how they can continue to evolve and improve.</p>
         `,
+
 }]
