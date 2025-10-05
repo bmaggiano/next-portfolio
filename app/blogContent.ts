@@ -1,5 +1,40 @@
 export const blogContent = [
   {
+    id: "first-big-tech-talk",
+    published: "10/04/2025",
+    title: "Leading a cohort",
+    description:
+      "My first big tech talk. A talk about my experience leading a cohort of engineers.",
+    image: "/tech_talk.jpg",
+    blogImage: "/tech_talk.jpg",
+    readTime: 5,
+    content: `
+      <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+      <p>A few weeks ago, I had to give a talk about our company’s entire ecosystem—over a dozen microservices—to the <strong>entire engineering department</strong>. These services spanned everything from <strong>Azure to AWS</strong>, built in <strong>C#, Python, Ruby on Rails, and .NET</strong>. Basically, a little bit of everything.</p>
+      <br/>
+      
+      <p>And here’s the kicker: I’ve only been here nine months. When I joined, I didn’t know the architecture, the stack, or even the coding language we used. My background was all JavaScript—React and Node—and suddenly I was working in Ruby on Rails. It was a massive shift.</p>
+      <br/>
+      
+      <blockquote style="font-size: 1.5rem; font-weight: bold;">The Challenge</blockquote>
+      <p>This session, which I co-hosted with my coworker <strong>Spencer</strong>, was focused on <strong>user flow</strong>. We were tasked with walking everyone through how data moves through our systems from start to finish. I was equal parts excited and terrified.</p>
+      <p>So I did what I could: I prepared. <em>A lot.</em> I built slides, created visuals in <strong>v0.dev</strong>, used <strong>ChatGPT</strong> for imagery, and practiced over and over. By the time the day came, I was nervous—but the preparation paid off. Once I started talking, it felt less like a presentation and more like a <strong>rehearsal</strong>.</p>
+      <br/>
+      
+      <blockquote style="font-size: 1.5rem; font-weight: bold;">The Talk</blockquote>
+      <p>The talk went better than I could’ve hoped. We broke down each of the microservices, explained how everything connects, and painted a picture of our system’s user flow end-to-end. By the end, people were snapping photos of our diagram and asking if I could send the slides directly to them. That was such a surreal moment—realizing I’d gone from not knowing this ecosystem at all to explaining it to the people who built it.</p>
+      <br/>
+      
+      <blockquote style="font-size: 1.5rem; font-weight: bold;">The Takeaway</blockquote>
+      <p>If there’s one thing I learned from this experience, it’s that <strong>preparation builds confidence</strong>. The more effort you put in beforehand, the less scary the actual talk becomes. When you prepare deeply, the presentation itself just feels like another practice run.</p>
+      <p>Anyone can give a great talk—no matter how new you are, no matter how nervous you feel—if you put in the work. Preparation gives you confidence, and confidence makes it feel natural.</p>
+      <br/>
+      
+      <blockquote style="font-size: 1.5rem; font-weight: bold;">Looking Back</blockquote>
+      <p>Standing up in front of the entire department was intimidating, but it turned out to be one of the most rewarding experiences I’ve had so far as an engineer. If you ever find yourself in my shoes—nervous, unsure, maybe a little out of your depth—just remember: it’s all about the work you do <em>before</em> you ever step up to the mic.</p>
+        `,
+  },
+  {
     id: "startup-to-scaleup",
     published: "09/19/2025",
     title: "From Startup Days to Scale-Up Life",
