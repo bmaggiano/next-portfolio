@@ -1,5 +1,43 @@
 export const blogContent = [
   {
+    id: "asking-for-help",
+    published: "10/12/2025",
+    title: "Asking for Help (and the Hidden consumer)",
+    description:
+      "Sometimes, asking for help is one of the best debugging tools we have.",
+    image: "/collaboration.jpg",
+    blogImage: "/collaboration.jpg",
+    readTime: 5,
+    content: `
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+          <p>This week, my teammate and I were deep in the weeds trying to figure out why data was flowing from <strong>PowerSchool → Central</strong>, but not from <strong>PowerSchool → Canvas</strong>. We had part of the puzzle—some diagrams, a few assumptions, and just enough context to feel like we could piece it together.</p>
+          <p>So we dove in. We traced logs, checked adapters, and confirmed configurations. Everything <em>looked</em> right. But users still weren’t syncing into Canvas.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Turning Point</blockquote>
+          <p>After a couple hours, it started to feel like we were just spinning our wheels. You know that moment when you’ve stared at something so long you start doubting your own sanity? Yeah, that was us.</p>
+          <p>Eventually, we did the thing engineers are notoriously bad at: <strong>we asked for help.</strong></p>
+          <p>Within ten minutes, someone pointed us toward a piece of the system we didn’t even know existed — a <strong>consumer</strong> sitting between the adapter and Canvas that we had completely overlooked. Suddenly, everything clicked.</p>
+          <p>Once we saw that missing piece, the full flow made sense: <strong>PowerSchool → Consumer → SQS → Adapter → Canvas</strong>. From there, the fix was easy—and soon, users were flowing through like they should’ve been all along.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Lesson</blockquote>
+          <p>Looking back, we did our due diligence. We time-boxed our investigation, explored our hypotheses, and reasoned through what we knew. That’s part of being an engineer.</p>
+          <p>But there’s a fine line between <em>digging in</em> and <em>digging a hole</em>. Sometimes, the best debugging tool isn’t <code>puts</code> or <code>byebug</code>—it’s another person’s perspective.</p>
+          <p>Asking for help isn’t a sign of weakness. It’s a way to learn faster and get unblocked sooner. It’s collaboration in action.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">Paying It Forward</blockquote>
+          <p>Later that same day, a different coworker ran into the <em>exact same issue</em>. This time, we were the ones helping them connect the dots. It felt good to return the favor—and it made me realize how quickly knowledge spreads when people are willing to reach out.</p>
+          <p>You don’t lose credibility by asking for help. You build it by sharing what you’ve learned.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">Looking Back</blockquote>
+          <p>Engineering isn’t just about writing code or fixing bugs. It’s about piecing together complex systems—both technical and human. Sometimes, the missing piece isn’t buried in a log or hidden behind an API. Sometimes, it’s sitting one chair away.</p>
+        `,
+  },
+
+  {
     id: "first-big-tech-talk",
     published: "10/04/2025",
     title: "Leading a cohort",
