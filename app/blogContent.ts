@@ -1,5 +1,48 @@
 export const blogContent = [
   {
+    id: "finding-balance",
+    published: "10/27/2025",
+    title: "Finding Balance in the Grind",
+    description:
+      "This week reminded me that balance matters as much as hustle.",
+    image: "/balance.jpg",
+    blogImage: "/balance.jpg",
+    readTime: 5,
+    content: `
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+          <p>Some weeks feel like a sprint inside a marathon. Between my full-time job, continuing education classes for my real estate license, planning a Halloween party for twenty-something guests, and getting ready to host a couple of friends for the weekend — life’s been... busy. And that’s not even counting family time or the fact that my brother’s about to have a baby. (Wild.)</p>
+          <br/>
+      
+          <p>Every day lately feels like a different kind of juggling act. Finish work. Jump into a class. Decorate the house. Run errands. Text reminders. Somewhere in there, try to eat something that’s not just caffeine and adrenaline. It’s been a lot — but it’s also been kind of awesome.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Grind</blockquote>
+          <p>I’ve always loved being busy. There’s something energizing about movement — about progress. Checking boxes, finishing projects, building things, bringing people together. It’s what keeps me feeling alive and motivated.</p>
+          <p>But the truth is, even good busy can sneak up on you. One minute you’re thriving on the chaos, and the next, you’re realizing you haven’t had a real break in weeks. You start running on autopilot — productive, but not present.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Pause</blockquote>
+          <p>It hit me the other night while I was finalizing the Halloween playlist at 11:45 PM — I was exhausted, but my brain refused to slow down. I wasn’t stressed in the traditional sense, but I was definitely drained. That’s when it clicked: even when life is full of things you *like* doing, it’s still okay to pause.</p>
+          <p>Burnout doesn’t always come from hating what you do. Sometimes, it comes from loving it too much to step away.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Lesson</blockquote>
+          <p>I’m learning that rest isn’t just something you earn — it’s something you practice. Scheduling downtime doesn’t make you lazy; it makes you sustainable. Whether it’s taking an hour to go on a walk, turning your phone off for a bit, or just saying “I’ll deal with that tomorrow,” it all adds up.</p>
+          <p>Because the truth is, if you don’t make space to breathe, you’ll eventually run out of air — no matter how much you love the grind.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">The Fun</blockquote>
+          <p>At the same time, I can’t deny how fun this kind of chaos can be. The party planning, the late-night work, the juggling — it’s all part of building a life that’s full. And even though I’m learning to rest more intentionally, I still love the feeling of being “in it.” There’s something deeply satisfying about doing hard things, staying organized, and making it all come together.</p>
+          <p>Balance doesn’t mean slowing down — it just means knowing when to speed back up.</p>
+          <br/>
+      
+          <blockquote style="font-size: 1.5rem; font-weight: bold;">Looking Back</blockquote>
+          <p>Life doesn’t always wait for the “perfect time.” Sometimes, everything hits at once — the work, the projects, the milestones, the parties, the people. But that’s also what makes it beautiful. The key is learning to find rhythm in the chaos — to know when to push, when to pause, and when to just sit back and take it all in.</p>
+          <p>This season’s been busy, messy, rewarding, and exhausting all at once. But it’s mine — and I wouldn’t trade it for anything.</p>
+        `,
+  },
+
+  {
     id: "asking-for-help",
     published: "10/12/2025",
     title: "Asking for Help (and the Hidden consumer)",
