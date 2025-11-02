@@ -1,5 +1,46 @@
 export const blogContent = [
   {
+    id: "power-of-optimism",
+    published: "11/03/2025",
+    title: "The Power of Optimism",
+    description:
+      "How staying positive during outages turned chaos into trust — and why optimism matters more than you think.",
+    image: "/optimism.jpg",
+    blogImage: "/optimism.jpg",
+    readTime: 6,
+    content: `
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+              <p>Some days, it feels like my job description could just read: “Keep calm while everything breaks.”</p>
+              <p>Being a software engineer sounds exciting on paper — until your version of excitement involves a flood of <strong>Jira alerts</strong> lighting up your screen. Systems go down, users can’t log in, something that worked perfectly yesterday suddenly refuses to cooperate.</p>
+              <p>It’s not always glamorous work. In fact, a lot of what my team does falls into the “dirty work” category — the unplanned, unexpected, and often thankless stuff that keeps the company running.</p>
+              <p>But here’s the thing: <strong>I actually love it.</strong></p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Question</blockquote>
+              <p>I get asked a lot — usually mid-incident — how I manage to stay so positive when things are falling apart. </p>
+              <p>It’s not that I find outages fun (no one does). It’s that I genuinely believe in our ability to figure it out. After a while, you stop panicking when things break. You just roll up your sleeves and start fixing. And that’s what optimism really is — not ignoring the chaos, but trusting that the chaos is temporary.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Mindset</blockquote>
+              <p>There’s this misconception that optimism means pretending everything’s fine. It doesn’t. For me, it’s about showing up steady when everything else feels unstable.</p>
+              <p>Someone once told me, “Energy is contagious.” And in our world, that couldn’t be truer. If one person spirals, it spreads. But if one person stays calm — if one person reminds the team that we’ve solved harder problems before — it creates space for focus.</p>
+              <p>Sometimes that’s all people need: a small reminder that the world isn’t ending, just glitching for a bit.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Trust</blockquote>
+              <p>The funny thing about staying positive during outages is that people start to trust you more — not because you’re the loudest or the smartest in the room, but because you’re consistent.</p>
+              <p>Positivity doesn’t fix bugs, but it builds reliability. It creates this quiet confidence that no matter what breaks, your team can handle it. And that trust compounds over time.</p>
+              <p>When your team is known for being steady under pressure, opportunities follow. You start to see more story work, more ownership, more responsibility — because you’ve proven you can keep things together when it matters most.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Lesson</blockquote>
+              <p>I’ve always been an optimistic person by nature, but the more I work in engineering, the more I realize it’s also a skill — one you practice every day.</p>
+              <p>You can choose to dwell on what’s broken, or you can focus on the fact that you get to fix things that matter. Because underneath every outage, every alert, every “hey, this is broken again,” there’s something quietly satisfying about being the person people can count on.</p>
+              <p>Maybe that’s the real power of optimism: it keeps you grounded long enough to turn chaos into progress.</p>
+            `,
+  },
+
+  {
     id: "finding-balance",
     published: "10/27/2025",
     title: "Finding Balance in the Grind",
@@ -7,7 +48,7 @@ export const blogContent = [
       "This week reminded me that balance matters as much as hustle.",
     image: "/balance.jpg",
     blogImage: "/balance.jpg",
-    readTime: 5,
+    readTime: 10,
     content: `
           <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
           <p>Some weeks feel like a sprint inside a marathon. Between my full-time job, continuing education classes for my real estate license, planning a Halloween party for twenty-something guests, and getting ready to host a couple of friends for the weekend — life’s been... busy. And that’s not even counting family time or the fact that my brother’s about to have a baby. (Wild.)</p>
