@@ -1,5 +1,44 @@
 export const blogContent = [
   {
+    id: "art-of-context-switching",
+    published: "11/10/2025",
+    title: "The Art (and Chaos) of Context Switching",
+    description:
+      "Balancing outages, deadlines, PRs, and priorities — learning to switch gears without losing momentum.",
+    image: "/context.jpg",
+    blogImage: "/context.jpg",
+    readTime: 6,
+    content: `
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+              <p>Lately, my days have felt like one long mental juggling act. Between <strong>Jira alerts</strong>, story work, helping another team hit their deadline, and reviewing PRs, it feels like I’m constantly bouncing between tasks that all need attention <em>right now</em>.</p>
+              <p>Some days, I look up and realize it’s 4 PM, and the one thing I meant to focus on in the morning hasn’t even been opened yet. Classic.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Observation</blockquote>
+              <p>I’ve noticed how senior engineers handle this — and it’s impressive. They don’t just survive context switching; they <strong>navigate</strong> it. I’ve watched them help me debug something tricky, then jump straight back into their own projects like nothing happened. It’s like they have a mental switchboard that’s always on standby.</p>
+              <p>Meanwhile, I’ll spend twenty minutes trying to remember where I left off after switching tabs. It’s humbling — but it’s also part of learning.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Struggle</blockquote>
+              <p>Right now, I’m splitting my time between helping another team with a critical deadline, managing outages, and supporting a product that basically keeps our entire department employed. It’s rewarding work — but it’s also a lot. </p>
+              <p>There are moments where I can feel my focus stretching thin, and that’s where the challenge really lives: figuring out how to shift gears without losing traction.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Lesson</blockquote>
+              <p>I’m learning that context switching isn’t about doing everything at once — it’s about <strong>resetting quickly</strong>. It’s knowing when to shift, when to delegate, and when to lock in and say, “This gets my focus right now.”</p>
+              <p>Every interruption is an opportunity to get better at reprioritizing. And honestly, the more you practice it, the easier it gets. Kind of like building mental muscle memory.</p>
+              <br/>
+      
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Takeaway</blockquote>
+              <p>I’m still not great at it — I probably spend too much time on the wrong things sometimes — but I know it’ll come with experience. Watching how senior engineers handle this has been its own kind of mentorship. They make it look effortless, not because it is, but because they’ve trained themselves to move fluidly between chaos and calm.</p>
+              <p>And that’s what I’m working toward: being adaptable without being overwhelmed. Productive, but still present.</p>
+              <br/>
+      
+              <p>Eventually, I’ll get there. One context switch at a time.</p>
+            `,
+  },
+
+  {
     id: "power-of-optimism",
     published: "11/03/2025",
     title: "The Power of Optimism",
