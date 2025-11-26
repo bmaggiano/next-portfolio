@@ -1,5 +1,59 @@
 export const blogContent = [
   {
+    id: "fitness-competition",
+    published: "11/25/2025",
+    title: "Fitness Competition",
+    description:
+      "How a company fitness competition reminded me why competing is still one of the best ways to grow.",
+    image: "/fitness.jpg",
+    blogImage: "/fitness.jpg",
+    readTime: 5,
+    content: `
+                  <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+                  <p>I didn’t expect to get drafted into a <strong>company fitness competition</strong>, but here we are. One minute I’m writing code, the next minute I’m getting recruited like it’s 2009 AAU basketball all over again.</p>
+                  <p>Each team had five people. Ten events total. And a generous <em>two weeks</em> to prepare. You know—plenty of time to become elite at everything from pull-ups to wall sits.</p>
+                  <p>I already work out six days a week, play basketball, lift, do football stuff… but nothing says “you’re not as well-rounded as you think” like a competition that includes <strong>battle ropes</strong>, <strong>Z presses</strong>, and <strong>a farmers carry designed by someone who hates shoulders.</strong></p>
+                  <br/>
+      
+                  <blockquote style="font-size: 1.5rem; font-weight: bold;">The Events</blockquote>
+                  <p>The lineup felt like the Olympics for people who own too many tech hoodies:</p>
+                  <ul>
+                    <li>Pull-Ups</li>
+                    <li>Dips</li>
+                    <li>Sit-Ups</li>
+                    <li>Dead Hang</li>
+                    <li>Z Press</li>
+                    <li>Battle Ropes</li>
+                    <li>Smith Machine Squats</li>
+                    <li>Wall Sit</li>
+                    <li>Push-Ups</li>
+                    <li>Farmers Carry</li>
+                  </ul>
+                  <p>I ended up doing <strong>Battle Ropes</strong> and <strong>Z Press</strong>. If you’ve never done battle ropes for time, let me tell you: it’s the fastest way to find out if your lungs actually like you.</p>
+                  <br/>
+      
+                  <blockquote style="font-size: 1.5rem; font-weight: bold;">The Competition</blockquote>
+                  <p>Both teams showed up ready. Some people trained. Others claimed they trained. Some of us definitely realized halfway through that we should’ve trained differently.</p>
+                  <p>Every event was close. People were screaming, cheering, pretending they weren’t dying inside — classic team bonding stuff.</p>
+                  <p>And after all ten events? We fell just short. Barely.</p>
+                  <p>Honestly? Losing might’ve been the best thing that could’ve happened.</p>
+                  <br/>
+      
+                  <blockquote style="font-size: 1.5rem; font-weight: bold;">The Spark</blockquote>
+                  <p>The loss didn’t bother me — it <strong>motivated</strong> me. Because competition has a funny way of exposing all the little weaknesses you forget about when you’re lifting or hooping on your own schedule.</p>
+                  <p>It reminded me that fitness isn’t just about strength or endurance — it’s about adaptability, teamwork, and sometimes learning that your shoulder mobility is not what you thought it was.</p>
+                  <p>I walked in confident and walked out inspired to get better at the things I usually avoid — the awkward, uncomfortable, “why does this burn so much?” movements.</p>
+                  <br/>
+      
+                  <blockquote style="font-size: 1.5rem; font-weight: bold;">The Lesson</blockquote>
+                  <p>These kinds of events are more than just a break from Jira alerts and desk life. They’re a surprisingly fun way to meet people, build relationships, and remember that work doesn’t always have to be… work.</p>
+                  <p>If your company sets up something like this, I’d say go for it. Even if you have two weeks to prepare. Even if the events make no sense. Even if you “aren't built for wall sits.”</p>
+                  <p>You might come away sore. You might come away humbled. But you’ll definitely come away better.</p>
+                  <p>And hey — there’s always next year.</p>
+                `,
+  },
+
+  {
     id: "art-of-context-switching",
     published: "11/10/2025",
     title: "The Art (and Chaos) of Context Switching",
