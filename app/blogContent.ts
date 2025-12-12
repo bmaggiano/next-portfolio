@@ -1,5 +1,56 @@
 export const blogContent = [
   {
+    id: "mentorship-and-goodbyes",
+    published: "12/01/2025",
+    title: "The Bittersweet Side of Great Mentorship",
+    description:
+      "On learning, losing, and carrying forward the lessons from the mentors who shaped my career.",
+    image: "/mentor.jpg",
+    blogImage: "/mentor.jpg",
+    readTime: 6,
+    content: `
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+              <p>One of the hardest parts about working in tech—the part no one really warns you about—is that the people who shape you the most don’t always stay forever.</p>
+              <p>Companies change. Teams shift. People move on to new opportunities or new chapters in their lives. And even when you stay in touch, losing day-to-day access to mentors who guided you is a quiet kind of heartbreak.</p>
+              <p>When I first joined this company, I barely knew Rails, barely knew the ecosystem, and barely understood half of what was happening around me. But what I did have was <strong>exceptional mentorship</strong> from two very different, equally impactful people.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Two Styles</blockquote>
+              <p>They couldn’t have been more different.</p>
+  
+              <p><strong>One was our team lead.</strong> Hands-off, no-nonsense, zero sugarcoating. He always called it how it was—blunt, direct, and unapologetically honest. If a story was unclear or missing half the requirements, he didn’t hesitate to tell product to “f*** off” (politely… but also not). He taught me the value of being upfront, of setting boundaries, and of not dancing around the truth.</p>
+              
+              <p>At the same time, despite the tough exterior, he had incredible emotional intelligence when it mattered. I’ll never forget the day I made a massive coding mistake—like, “my face instantly turned pale and I contemplated my life choices” level of mistake. I had tangled a bunch of user accounts, and I felt like I was going to throw up.</p>
+  
+              <p>Even with his reputation for bluntness, he knew exactly how to read the moment. He cracked some jokes, eased the tension, and jumped right in to help fix it. No guilt-tripping, no heat, just guidance. I walked away with the problem solved, but also with a lesson in leadership I’ve carried with me ever since.</p>
+  
+              <br/>
+  
+              <p><strong>The other mentor was almost the opposite.</strong> He sat on the other side of the office. Whenever I was stuck—learning the system, learning Rails, learning literally everything—I’d walk over with my laptop. He’d slide his headphones off, give me a light roast (a tradition at this point), and then genuinely walk me through the problem.</p>
+  
+              <p>Every time I left his desk, I felt like I’d gained both technical knowledge and institutional knowledge. He had patience, humor, and a way of explaining things that made everything click. He’s at a different company now, but we still play video games together. That says everything you need to know.</p>
+  
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Impact</blockquote>
+              <p>These two people taught me more than just code. They taught me what it means to be a good engineer, a good teammate, and a good human in a field that demands both technical and interpersonal skill.</p>
+              <p>Different styles. Different strengths. Same influence.</p>
+              <p>And losing them from my day-to-day work life? Yeah… it’s tough. Really tough. You don’t realize how much you lean on someone until their chair is empty.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Perspective</blockquote>
+              <p>But this is the reality of tech. People grow. People leave. And the best mentors don’t stay forever—because their impact stays with you even when they’re gone.</p>
+              <p>It’s bittersweet, but it’s also part of the process. And if anything, it’s a reminder of how lucky I was to have them in the first place.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Legacy</blockquote>
+              <p>The only thing left to do now is carry what they taught me into the next stage of my career. Apply their lessons. Blend their styles. And when the next wave of junior devs comes through, be the person they can count on the same way I counted on my mentors.</p>
+              <p>Because mentorship doesn’t end when someone leaves—it continues through the people they influenced.</p>
+              <p>And I hope I can do justice to both of them.</p>
+            `,
+  },
+
+  {
     id: "fitness-competition",
     published: "11/25/2025",
     title: "Fitness Competition",
