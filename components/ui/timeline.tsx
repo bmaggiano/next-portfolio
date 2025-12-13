@@ -2,6 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export interface TimelineItem {
   year: string;
@@ -10,6 +11,7 @@ export interface TimelineItem {
   techStack?: string[];
   current?: boolean;
   dateRange?: string;
+  icon?: string; // Path to company logo/icon (e.g., "/logos/strongmind.png")
 }
 
 interface CareerTimelineProps {
@@ -25,6 +27,7 @@ const defaultCareerData: TimelineItem[] = [
     techStack: ["Ruby on Rails", "Python", ".NET", "C#", "AWS", "Azure"],
     current: true,
     dateRange: "January 2025 - Present",
+    icon: "/strongmindlogo.jpeg",
   },
   {
     year: "2024",
@@ -33,6 +36,7 @@ const defaultCareerData: TimelineItem[] = [
       "Built and launched an AI-powered fantasy sports analytics platform using Next.js and Node.js, integrating LLM-driven analysis, historical data pipelines, and third-party APIs to generate real-time predictions and recommendations.",
     techStack: ["NextJs", "Node", "OpenAI", "PostgreSQL"],
     dateRange: "July 2024 - January 2025",
+    icon: "/stuart.jpeg",
   },
   {
     year: "2023",
@@ -41,6 +45,7 @@ const defaultCareerData: TimelineItem[] = [
       "Built and maintained secure React and Next.js applications at an early-stage healthcare startup, implementing OAuth 2.0 authentication, Redis-backed session management, and third-party integrations with health insurance provider systems.",
     techStack: ["Next.js", "TypeScript", "Sequelize", "Node.js", "Redis"],
     dateRange: "June 2023 - June 2024",
+    icon: "/hcdllogo.jpeg",
   },
   {
     year: "2022",
@@ -49,6 +54,7 @@ const defaultCareerData: TimelineItem[] = [
       "Completed an immersive, project-based MERN bootcamp focused on designing, building, and deploying full-stack web applications.",
     techStack: ["MongoDB", "Express", "React", "Node.js", "JavaScript"],
     dateRange: "September 2022 - December 2022",
+    icon: "/ua.png",
   },
 ];
 
@@ -88,7 +94,17 @@ export function CareerTimeline({
                 {/* Content */}
                 <div className="flex-1 pb-2">
                   <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 sm:gap-4 mb-2">
-                    <div className="flex items-baseline gap-2">
+                    <div className="flex items-center gap-2">
+                      {item.icon && (
+                        <div className="relative w-5 h-5 flex-shrink-0 rounded overflow-hidden">
+                          <Image
+                            src={item.icon}
+                            alt={`${item.title} logo`}
+                            fill
+                            className="object-contain"
+                          />
+                        </div>
+                      )}
                       <h3 className="text-lg font-semibold text-white">
                         {item.title}
                       </h3>
