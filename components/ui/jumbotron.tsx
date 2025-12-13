@@ -5,8 +5,7 @@ export default function Jumbotron() {
         From Concept to Code
       </h1>
       <p className="max-w-[42rem] text-center leading-normal text-gray-400 sm:text-xl sm:leading-8">
-        Crafting React and Next.js magic. Step into my portfolio, where code
-        meets creativity.
+        Turning ideas into scalable, production-ready applications.
       </p>
     </main>
   );
