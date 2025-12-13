@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { Button } from "./button";
-
 export default function Jumbotron() {
   return (
     <main className="flex flex-col items-center justify-center gap-y-4 px-4 py-16 sm:px-6 lg:px-8">
@@ -11,11 +8,6 @@ export default function Jumbotron() {
         Crafting React and Next.js magic. Step into my portfolio, where code
         meets creativity.
       </p>
-      <Button variant="outline">
-        <Link href={"https://twitter.com/brandonmaggiano"}>
-          Follow along on X
-        </Link>
-      </Button>
     </main>
   );
 }
