@@ -12,7 +12,7 @@ export default function Header() {
             <AvatarFallback>B</AvatarFallback>
           </Avatar>
         </Link>
-        <span className="ml-3 text-xl font-semibold">Brandon&apos;s Site</span>
+        <span className="ml-3 text-xl font-semibold">Brandon Maggiano</span>
       </div>
       <div className="flex items-center gap-x-4">
         <a
