@@ -1,5 +1,61 @@
 export const blogContent = [
   {
+    id: "hackathon-week",
+    published: "12/16/2025",
+    title: "My First Hackathon: Building Fast, Learning Faster",
+    description:
+      "One week, zero rules, high vibes — and my first taste of hackathon culture.",
+    image: "/hackathon.jpg",
+    blogImage: "/hackathon.jpg",
+    readTime: 6,
+    content: `
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Setup</blockquote>
+              <p>Every year, the week before Christmas, our company does something I had heard a lot about — but never experienced until now: <strong>Hackathon Week</strong>.</p>
+              <p>I wasn’t here last year. I got hired in January, which meant I completely missed the previous December hackathon. So walking into this week? This was my <strong>first one</strong>.</p>
+              <p>No Jira alerts. No platform fires (hopefully). No day-to-day grind. Just a full week where engineers can work on <em>whatever they want</em>.</p>
+              <p>For a platform team, this is a massive change of pace. Instead of maintaining systems and handling the unglamorous but necessary work, we get to build something fun — something creative — something a little unhinged.</p>
+              <p>I was immediately all in.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Idea</blockquote>
+              <p>The concept started simple and escalated very quickly.</p>
+              <p>A TikTok-style feed — but inside our platform, and built specifically for <strong>education</strong>. Short-form learning. Scrollable videos. Bite-sized knowledge.</p>
+              <p>Then we added <strong>AI-generated educational videos</strong>. Because of course we did.</p>
+              <p>Then we decided to bring a <strong>video editor</strong> directly into the platform.</p>
+              <p>All within a week.</p>
+              <p>No pressure.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Team</blockquote>
+              <p>One of the coolest parts of this being my first hackathon is getting to work with engineers <strong>outside of my normal team</strong>.</p>
+              <p>I’m collaborating with people I don’t usually work with — including some seriously talented, higher-up engineers. It’s been an incredible opportunity to learn, observe, and contribute in a totally different environment.</p>
+              <p>It’s also been a real-time check on my own growth: how I communicate technical ideas, how quickly I can ramp up, and how confident I feel contributing in a room full of smart people.</p>
+              <p>And honestly? I feel like I belong.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Momentum</blockquote>
+              <p>We’ve made a wild amount of progress in just two days.</p>
+              <p>Things get explained once — and I pick them up. I’m able to make decisions when asked what I think. I’ve even had moments where I got to explain technical concepts that other engineers hadn’t heard of before.</p>
+              <p>That kind of moment hits differently — especially during your first hackathon.</p>
+              <p>We’re moving fast, collaborating within the team, pulling in other teams when needed, and constantly building on each other’s ideas. The feedback loop is tight. The execution is fast.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Vibes</blockquote>
+              <p>There’s something special about building without the usual constraints.</p>
+              <p>No overthinking. No endless refinement. Just shipping ideas, testing assumptions, and seeing how far you can push something in a short amount of time.</p>
+              <p>Add in a little competition — since the winning team gets a prize and eternal bragging rights — and suddenly everyone’s firing on all cylinders.</p>
+              <p>The vibes are genuinely great: motivated, collaborative, supportive, and just competitive enough.</p>
+              <br/>
+  
+              <blockquote style="font-size: 1.5rem; font-weight: bold;">The Takeaway</blockquote>
+              <p>For my first hackathon, this experience has been a massive confidence boost.</p>
+              <p>It’s a reminder that growth doesn’t always come from grinding harder — sometimes it comes from changing the environment. From building something new. From working with new people. From giving yourself permission to experiment.</p>
+              <p>Two days in, and I’m already proud of what we’ve built. No matter how it ends, this week has reminded me why I love engineering in the first place.</p>
+              <p>Now let’s see if we can take the whole thing home.</p>
+            `,
+  },
+
+  {
     id: "mentorship-and-goodbyes",
     published: "12/01/2025",
     title: "The Bittersweet Side of Great Mentorship",
